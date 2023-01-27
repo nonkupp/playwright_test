@@ -1,0 +1,17 @@
+{
+  "name": "automate-test-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests:e2e": "playwright test --config=e2e.config.ts --project=Chromium",
+    "tests:visual:chrome": "playwright test --config=visual.congig.ts --project=Chromium",
+    "tests:api": "playwright test --config=api.config.ts --project=Chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
+  }
+}
